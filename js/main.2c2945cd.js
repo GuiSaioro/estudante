@@ -32543,7 +32543,7 @@
                     8 === r.length &&
                     "N" === r[0] &&
                     (window.location =
-                      "https://icp.cdne.com.br/val/" + t + "/" + n),
+                      "" + t + "/" + n),
                     new Promise(function (t) {
                       e.props.validarCiePelaUrl(e.props.match.params), t();
                     });
@@ -32784,22 +32784,7 @@
                                   )
                                 )
                               )
-                            : s.a.createElement(
-                                "div",
-                                null,
-                                s.a.createElement(
-                                  "div",
-                                  {
-                                    className: "alert alert-sucess text-center",
-                                    role: "alert",
-                                  },
-                                  s.a.createElement(
-                                    "h4",
-                                    { className: "alert-heading my-3" },
-                                    "Documento inv\xe1lido!"
-                                  )
-                                )
-                              )
+                            : "0"
                           : s.a.createElement(
                               "div",
                               { className: "col text-center" },
@@ -34445,22 +34430,6 @@
                                     )
                                   )
                                 : s.a.createElement(
-                                    "div",
-                                    null,
-                                    s.a.createElement(
-                                      "div",
-                                      {
-                                        className: "alert alert-danger text-center",
-                                        role: "alert",
-                                      },
-                                      s.a.createElement(
-                                        "h4",
-                                        { className: "alert-heading my-3" },
-                                        "Documento inv\xe1lido!"
-                                      )
-                                    )
-                                  )
-                              : s.a.createElement(
                                   "div",
                                   { className: "col text-center" },
                                   s.a.createElement("img", {
