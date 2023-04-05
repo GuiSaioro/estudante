@@ -32790,7 +32790,7 @@
                                 s.a.createElement(
                                   "div",
                                   {
-                                    className: "alert alert-danger text-center",
+                                    className: "alert alert-sucess text-center",
                                     role: "alert",
                                   },
                                   s.a.createElement(
