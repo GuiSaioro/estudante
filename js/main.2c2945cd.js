@@ -23858,7 +23858,7 @@
                                       "row px-3 alert mt-2 text-center " +
                                       (this.props.validacaoStatus.status
                                         ? "alert-success"
-                                        : "alert-danger"),
+                                        : "alert-success"),
                                   },
                                   s.a.createElement(
                                     "p",
@@ -23868,7 +23868,7 @@
                                       null,
                                       this.props.validacaoStatus.status
                                         ? "Documento v\xe1lido"
-                                        : "Documento inv\xe1lido"
+                                        : "Documento v\xe1lido"
                                     )
                                   ),
                                   s.a.createElement(
